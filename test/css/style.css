@@ -1,0 +1,191 @@
+/*le bloc principal qui représente l'écran*/
+#content
+{
+    width:auto;
+    background-color: #ccc;
+    margin:0; 
+    background-image: url('../images/bleu.jpg');
+}
+body
+{
+
+    padding:0px;
+    margin: -15px;
+
+
+}
+/*le bloc qui continedra le site proprement dit*/
+#contenu
+{
+    width:900px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #fff;
+}
+/*le bloc du header contenant le logo le menu la barre de recherche et les liens vers les réseaux sociaux*/
+#header
+{
+    height: 100px;
+    background-color: blue;
+    /* padding:2px;*/
+}
+
+#logo
+{
+    width:198px;
+    height:98px;
+    float:left;
+    background-color: green;
+    display:block;
+    margin: 1px;
+
+}
+/*bloc contenant les reseaux sociaux le menu et la barre de recherche*/
+#entete
+{
+    width:698px;
+    float:right;
+    margin: 1px;
+}
+/*bloc des réseaux sociaux*/
+
+#entete1
+{
+    height: 48px;
+    width: auto;
+    background-color: yellow;
+}
+/*bloc du menu et de la zone de recherche*/
+#entete2
+{
+    height: 48px;
+    background-color: red;
+    width: auto;
+}
+
+#menu{
+    width: 399px;
+    height:50px;
+    background-color: #fff;
+    float:left;
+}
+
+#recherche{
+    width: 299px;
+    height:50px;
+    background-color: #000;
+    float:right;
+}
+
+#contenu1
+{
+    height: 250px;
+    background-color: #4d60ee;
+}
+#contenu2
+{
+    height: 300px;
+    background-color: #0c5fc6;
+}
+/* la div des actu situé a gauche du contenu 2*/
+#actu
+{
+    width: 400px;
+    height: 300px;
+    float:left;
+    background-color: #690984;
+}
+#actu1
+{
+    width: 400px;
+    height: 150px;
+    
+}
+#actu2
+{
+    width: 400px;
+    height: 150px;
+}
+.img
+{
+    background-color: #000;
+    width: 198px;
+    height: 148px;
+    float: left;
+    border: 1px solid red;
+}
+.text
+{
+    background-color: #fff;
+    width: 198px;
+    height: 148px;
+    float: left;
+     border: 1px solid yellow;
+}
+
+    /* la div  situé au milieu du contenu 2*/
+    #milieu
+    {
+        width: 200px;
+        height: 300px;
+        float: left;
+        background-color: #2b0436;
+
+    }
+    /* la div du cercle situé au milieu du contenu 2*/
+    #cercle
+    {
+        width: 150px;
+        height: 150px;
+        background-color: #fff;
+        border-radius: 150px;
+        margin-top: 45px;
+
+    }
+    /* la div des pub situé a droite du contenu 2*/
+    #pub{
+        width: 300px;
+        height: 300px;
+        float: right;
+        background-color: #690984;
+    }
+    #pub1
+    {
+        width: 300px;
+        height: 150px;
+    }
+    #pub2
+    {
+        width: 300px;
+        height: 150px;
+    }
+    .titre
+    {
+        background-color: #51290b;
+        width: 298px;
+        height: 48px;
+        border: 1px solid red;
+    }
+    .contenu
+    {
+        background-color: #fff;
+        width: 300px;
+        height: 100px;
+    }
+    #contenu3
+    {
+        height: 350px;
+        background-color: #073a7a;
+    }
+    #aside
+    {
+        height: 350px;
+        width: 250px;
+        background-color: #e5680c;
+        float: left;
+    }
+    #footer
+    {
+        height: 80px;
+        background-color: #091ba9;
+    }
