@@ -1,0 +1,6 @@
+{
+    "name": "vendor/projethtml",
+    "require": {
+        "phpunit/phpunit": "^4.8"
+    }
+}
